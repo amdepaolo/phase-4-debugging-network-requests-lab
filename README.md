@@ -63,11 +63,15 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  When you submit an empty form it adds a blank toy, model needs validators
 
 - Update the number of likes for a toy
 
   - How I debugged:
+  unexpected end of json input, update doesn't return updated json
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  exception "#<ActionController::RoutingError: No route matches  [DELETE]
+  no delete route, change routes to reflect
